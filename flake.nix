@@ -16,7 +16,7 @@
 	};
 
 	outputs = inputs@{ self, nixpkgs, noctalia, noctalia-greeter, ... }: {
-		nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+		nixosConfigurations.mars = nixpkgs.lib.nixosSystem {
 			system = "x86_64-linux";
             
             specialArgs = {
