@@ -1,0 +1,60 @@
+{ pkgs, inputs, ... }:
+
+{
+  environment.systemPackages = with pkgs; [
+    # Compilers
+    gcc
+    gnumake
+    cargo
+    rustc
+    jdk21
+    jdk25
+    nodejs_latest
+
+    # Dev tools 
+    git
+    nixd
+    nixfmt
+
+    # Editors 
+    neovim
+    zed-editor-fhs
+
+    # Misc. apps
+    aseprite
+    pince
+
+    # Desktop / Wayland
+    kitty
+    fuzzel
+    xwayland-satellite
+    wl-clipboard
+    brightnessctl
+    adwaita-icon-theme
+    kdePackages.qtstyleplugin-kvantum
+    kdePackages.dolphin
+
+    # Gaming
+    steam
+    prismlauncher
+
+    # Internet
+    firefox
+    discord
+    vesktop
+
+    # Utilities 
+    kbd
+    ranger
+    fastfetch
+    zip
+    unzip
+
+    # Flake packages 
+    inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
+  ];
+
+  fonts.packages = with pkgs; [
+    nerd-fonts.space-mono
+  ];
+}
