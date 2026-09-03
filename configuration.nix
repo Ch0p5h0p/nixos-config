@@ -7,12 +7,12 @@
 
 {
   imports = [
-    ./hardware-configuration.nix
-    ./users.nix
-    ./packages.nix
-    ./desktop.nix
-    ./services.nix
-    ./boot.nix
+    ./cfg/hardware-configuration.nix
+    ./cfg/users.nix
+    ./cfg/packages.nix
+    ./cfg/desktop.nix
+    ./cfg/services.nix
+    ./cfg/boot.nix
     inputs.noctalia-greeter.nixosModules.default
   ];
 
