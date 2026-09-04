@@ -38,6 +38,7 @@
     steam
     prismlauncher
     olympus
+    dusklight
 
     # Internet
     firefox
