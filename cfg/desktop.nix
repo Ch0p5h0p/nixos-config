@@ -36,6 +36,14 @@
 
   security.polkit.enable = true;
 
+  xdg.mime = {
+    enable = true;
+    defaultApplications = {
+      "application/zip" = "org.kde.ark.desktop";
+      "inode/directory" = "org.kde.dolphin.desktop";
+    };
+  };
+
   fonts.packages = with pkgs; [
     nerd-fonts.space-mono
   ];

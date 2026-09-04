@@ -51,6 +51,10 @@
     fastfetch
     zip
     unzip
+    kdePackages.ark
+    file
+    tree
+    vlc
 
     # Flake packages 
     inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
