@@ -37,6 +37,7 @@
     # Gaming
     steam
     prismlauncher
+    olympus
 
     # Internet
     firefox
