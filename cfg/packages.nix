@@ -4,6 +4,7 @@
   environment.systemPackages = with pkgs; [
     # Compilers
     gcc
+    clang
     gnumake
     cargo
     rustc
@@ -15,6 +16,9 @@
     git
     nixd
     nixfmt
+    rustfmt
+    rust-analyzer
+    clang-tools
 
     # Editors 
     neovim
