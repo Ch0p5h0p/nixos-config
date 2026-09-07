@@ -5,8 +5,6 @@
     # Compilers
     gcc
     clang
-    gnumake
-    cargo
     rustc
     jdk21
     jdk25
@@ -14,6 +12,8 @@
 
     # Dev tools 
     git
+    gnumake
+    cargo
     nixd
     nixfmt
     rustfmt
@@ -27,7 +27,7 @@
     # Misc. apps
     aseprite
     pince
-
+    
     # Desktop / Wayland
     kitty
     fuzzel

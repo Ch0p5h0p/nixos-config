@@ -13,6 +13,7 @@
     ./cfg/desktop.nix
     ./cfg/services.nix
     ./cfg/boot.nix
+    ./cfg/automation.nix
     inputs.noctalia-greeter.nixosModules.default
   ];
 
