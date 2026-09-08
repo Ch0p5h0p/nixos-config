@@ -14,6 +14,7 @@
     git
     gnumake
     cargo
+    evcxr
     nixd
     nixfmt
     rustfmt
