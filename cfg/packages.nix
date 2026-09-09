@@ -28,10 +28,13 @@
     # Misc. apps
     aseprite
     pince
-    
-    # Desktop / Wayland
+
+    # Shell stuff
     kitty
     starship
+    nix-your-shell
+
+    # Desktop / Wayland
     fuzzel
     xwayland-satellite
     wl-clipboard
