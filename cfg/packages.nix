@@ -31,6 +31,7 @@
     
     # Desktop / Wayland
     kitty
+    starship
     fuzzel
     xwayland-satellite
     wl-clipboard
