@@ -11,4 +11,8 @@
   services.greetd = {
     enable = true;
   };
+
+  services.flatpak = {
+    enable = true;
+  };
 }

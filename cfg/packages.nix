@@ -2,18 +2,19 @@
 
 {
   environment.systemPackages = with pkgs; [
-    # Compilers
+    # Compilers and languages
     gcc
     clang
     rustc
     jdk21
     jdk25
-    nodejs_latest
+    python3
 
-    # Dev tools 
+    # Dev tools
     git
     gnumake
     cargo
+    cmake
     evcxr
     nixd
     nixfmt
@@ -21,7 +22,7 @@
     rust-analyzer
     clang-tools
 
-    # Editors 
+    # Editors
     neovim
     zed-editor-fhs
 
@@ -54,7 +55,7 @@
     discord
     vesktop
 
-    # Utilities 
+    # Utilities
     kbd
     ranger
     fastfetch
@@ -64,8 +65,10 @@
     file
     tree
     vlc
+    reptyr
+    pstree
 
-    # Flake packages 
+    # Flake packages
     inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 

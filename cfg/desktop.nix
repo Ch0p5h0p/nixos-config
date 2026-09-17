@@ -34,6 +34,11 @@
     };
   };
 
+  programs.gpu-screen-recorder = {
+    enable = true;
+    ui.enable = true;
+  };
+
   security.polkit.enable = true;
 
   xdg.mime = {
