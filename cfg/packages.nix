@@ -21,9 +21,12 @@
     rustfmt
     rust-analyzer
     clang-tools
+    gdb
+    gef
 
     # Editors
     neovim
+    emacs
     zed-editor-fhs
 
     # Misc. apps
@@ -67,6 +70,7 @@
     vlc
     reptyr
     pstree
+    sqlite
 
     # Flake packages
     inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
